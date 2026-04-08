@@ -90,7 +90,7 @@
         <&zip_scroll_scaler 2 5>;
 #else
     // CURSOR MODE: Normal cursor with auto mouse layer
-    input-processors = <&zip_temp_layer 1 700>;
+    input-processors = <&zip_xy_scaler 1 1>;
 
     // Enable scroll on layer 5
     scroller {
